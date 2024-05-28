@@ -33,3 +33,8 @@ alias glg='git log --graph --oneline --decorate --all'
 alias ggp='ggpush'
 alias ggpfl='ggpush --force-with-lease'
 alias ggpf='ggpush --force'
+
+function git_current_branch() {
+  ref=$(git symbolic-ref HEAD 2> /dev/null) || return
+  echo ${ref#refs/heads/}
+}
