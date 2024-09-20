@@ -26,10 +26,14 @@ alias tfi='terraform init'
 alias tfp='terraform plan'
 alias tfv='terraform validate'
 
+# docker
+alias dcu="docker compose up"
+alias dcd="docker compose down"
+
 # git aliases
 alias gs='git status '
 alias gcob="git checkout -b"
-alias glg='git log --graph --oneline --decorate --all'
+alias glg='git log --graph --oneline --decorate --all   '
 alias ggp='ggpush'
 alias ggpfl='ggpush --force-with-lease'
 alias ggpf='ggpush --force'
