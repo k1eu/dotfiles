@@ -29,6 +29,9 @@ alias tfv='terraform validate'
 # docker
 alias dcu="docker compose up"
 alias dcd="docker compose down"
+alias dim="docker images"
+alias dkill="docker kill"
+alias dps="docker ps"
 
 # git aliases
 alias gs='git status '
