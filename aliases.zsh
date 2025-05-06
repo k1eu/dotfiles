@@ -41,6 +41,10 @@ alias ggp='ggpush'
 alias ggpfl='ggpush --force-with-lease'
 alias ggpf='ggpush --force'
 
+# gh aliases
+alias please="ghcs"
+alias explain="gh copilot explain"
+
 function git_current_branch() {
   ref=$(git symbolic-ref HEAD 2> /dev/null) || return
   echo ${ref#refs/heads/}

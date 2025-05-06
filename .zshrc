@@ -56,6 +56,7 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 source ~/.fzf_git.sh
 source ~/dotfiles/aliases.zsh
+source ~/dotfiles/gh-copilot/copilot.sh
 source ~/dotfiles/scripts/timetest.zsh
 
 
@@ -96,3 +97,4 @@ export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$HOME/.local/bin:$PATH:
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+
